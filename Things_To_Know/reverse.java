@@ -1,5 +1,3 @@
-
-
 public class reverse {
     public static int reverseNumber(int n){
         int original=n;
@@ -20,13 +18,8 @@ public class reverse {
         }else {
             return 0;
         }
-      
-       
-        
-
-
     }
-   
+
    
    public static int ArmstrongNumber(int n){
     int original=n;
@@ -44,6 +37,7 @@ public class reverse {
    }}
 
 
+
    public static int Divisor(int n){
     for (int i=1;i<=n;i++){
         if (n%i==0){
@@ -51,7 +45,9 @@ public class reverse {
     }
     
     }return 0;
-   }   
+   }
+
+   
     public static void main(String[] args) {
         int n=36;
         // System.out.println(reverseNumber(n));
